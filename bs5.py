@@ -27,3 +27,6 @@
 #     elif i==6:
 #         break
 #     print(i)
+
+a=3*"3"
+print(a)
