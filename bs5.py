@@ -28,5 +28,23 @@
 #         break
 #     print(i)
 
-a=3*"3"
-print(a)
+# a=3*"3"
+# print(a)
+
+# a=[[1,2],[3,4],[5,6]]
+# b=[]
+# for i in a:
+#     for j in i:
+#         b.append(j)
+
+# print(b)  
+
+
+a=[1,2,3,4,5,6]
+n=3
+b=[]
+for i in a:
+    for i in range(0, len(a), n):
+        a.append(a[1:i+n])
+print(b)           
+

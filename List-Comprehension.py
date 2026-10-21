@@ -5,10 +5,10 @@
 # uppercase =[x for x in text if x.isupper()]
 # print(uppercase)
 
-# a =[[1,2],[3,4]] 
-# b=[x for sublist in a for x in sublist]
-# print(a)
-# print(b)
+a =[[1,2],[3,4]] 
+b=[x for sublist in a for x in sublist]
+print(a)
+print(b)
 
 
-b = [x for x in range(1,8) if x ]
+# b = [x for x in range(1,8) if x ]
